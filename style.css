@@ -1,5 +1,6 @@
 body {
   background-color: silver;
+  font-family: "Syne Mono", monospace;
 }
 
 .navbarLinks {
@@ -31,7 +32,7 @@ body {
   width: 70%;
   min-height: 100vh;
   margin: 0 auto;
-  padding: 10px 20px;
+  padding: 20px 20px;
 }
 
 .teamCard {
