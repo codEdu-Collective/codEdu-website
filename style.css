@@ -1,11 +1,15 @@
 body {
-  background-color: silver;
+  background-color: #ebdbdb;
   font-family: "Syne Mono", monospace;
 }
 
+.navbar-head {
+  background-color: #003547;
+}
+
 .navbarLinks {
-  background-color: #940f03;
-  color: white;
+  background-color: #ffc107;
+  color: #005e54;
 }
 
 .container {
@@ -20,7 +24,7 @@ body {
 }
 
 .container2 {
-  background-color: #171c21;
+  background-color: #005e54;
   width: 70%;
   min-height: 100vh;
   margin: 0 auto;
@@ -28,7 +32,7 @@ body {
 }
 
 .container3 {
-  background-color: #940f03;
+  background-color: #003547;
   width: 70%;
   min-height: 100vh;
   margin: 0 auto;
@@ -46,7 +50,7 @@ body {
 }
 
 .container4 {
-  background-color: #171c21;
+  background-color: #005e54;
   width: 70%;
   min-height: 100vh;
   margin: 0 auto;
@@ -60,13 +64,19 @@ body {
 }
 
 .cardbg {
-  background-color: #940f03;
+  background-color: #ebdbdb;
   cursor: pointer;
+  color: #003547;
   /* padding: 5px; */
 }
 
+.projects-img {
+  width: 145px;
+  height: 100px;
+}
+
 .container5 {
-  background-color: #940f03;
+  background-color: #003547;
   width: 70%;
   min-height: 100vh;
   margin: 0 auto;
@@ -82,7 +92,7 @@ body {
 }
 
 .container6 {
-  background-color: #171c21;
+  background-color: #005e54;
   width: 70%;
   min-height: 100vh;
   margin: 0 auto;
@@ -90,5 +100,5 @@ body {
 }
 
 .footer {
-  background-color: #940f03;
+  background-color: #003547;
 }
