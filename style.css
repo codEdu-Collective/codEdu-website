@@ -1,3 +1,7 @@
+:root {
+  --navbar-height: 56px;
+}
+
 body {
   background-color: #ebdbdb;
   font-family: "Syne Mono", monospace;
@@ -19,7 +23,7 @@ body {
 }
 
 .sliderImg {
-  height: 80vh;
+  height: calc(100vh - var(--navbar-height));
   object-fit: cover;
 }
 
@@ -34,7 +38,7 @@ body {
 .container3 {
   background-color: #003547;
   width: 70%;
-  min-height: 100vh;
+  min-height: calc(100vh - var(--navbar-height));
   margin: 0 auto;
   padding: 20px 20px;
   padding: 20px 20px;
@@ -53,7 +57,7 @@ body {
 .container4 {
   background-color: #005e54;
   width: 70%;
-  min-height: 100vh;
+  min-height: calc(100vh - var(--navbar-height));
   margin: 0 auto;
   padding: 10px 20px;
 }
@@ -79,7 +83,7 @@ body {
 .container5 {
   background-color: #003547;
   width: 70%;
-  min-height: 100vh;
+  min-height: calc(100vh - var(--navbar-height));
   margin: 0 auto;
   padding: 10px 20px;
 }
@@ -95,7 +99,7 @@ body {
 .container6 {
   background-color: #005e54;
   width: 70%;
-  min-height: 100vh;
+  min-height: calc(100vh - var(--navbar-height));
   margin: 0 auto;
   padding: 10px 20px;
 }
