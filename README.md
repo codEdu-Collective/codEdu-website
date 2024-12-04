@@ -23,7 +23,3 @@ The CodEdu website is built using HTML and CSS, with a responsive design for var
 ## License
 
 This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License
-
-## License
-
-This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License
